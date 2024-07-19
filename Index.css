@@ -1,0 +1,80 @@
+#img-wrapper{
+  max-width: 100%;
+  height: 20em;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+}
+img{
+  padding: 40px;
+  max-width: 50%;
+  max-height: 50%;
+} 
+@media screen and (min-width:768px) {
+  .carousel-inner{
+    display: flex;
+  }
+  .carousel-item{
+    display: block;
+    margin-right: 0;
+    flex: 0 0 calc(100%/3);
+  }
+}
+.carousel-inner{
+  padding: 2rem;
+}
+.card{
+  margin: 0 .5rem;
+}
+.carousel-control-prev,
+  .carousel-control-next {
+    background-color: #e1e1e1;
+    width: 6vh;
+    height: 6vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 0;
+  }
+
+  .logo{
+    width: 50px;
+    height: 50px;
+  }
+
+  ul.social {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  ul.social > li {
+    display: inline-block;
+  }
+  
+  ul.social > li > a {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    border-radius: 36px;
+    background-color: #222222;
+    color: #fff;
+    margin: 0 3px 3px 0;
+  }
+  
+  ul.social > li > a:hover {
+    text-decoration: none;
+    background-color: #151515;
+  }
+
+  .iti {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    z-index: 0;
+  }
+  
